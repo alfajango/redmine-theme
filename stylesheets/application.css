@@ -1601,11 +1601,11 @@ fieldset#date-range {
 }
 /* Top bar */
 #top-menu ul li .home {
-  background: url("../images/rebrand/alfajango-logo.png") no-repeat center center;
+  background: url("../images/rebrand/redmine-alfajango-logo-b.png") no-repeat center center;
   color: transparent;
   background-size: 100%;
   display: block;
-  width: 100px;
+  width: 130px;
   height: 18px;
   padding-top: 8px;
   margin-right: 20px;
