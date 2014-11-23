@@ -801,6 +801,25 @@ tr.message.sticky td.subject {
   }
 }
 
+a.project.leaf {
+  display: block;
+}
+
+#projects-index ul.projects li.root,
+#projects-index ul.projects li.child {
+  border-bottom: solid #CCCCCC 1px;
+  padding: 0.5em 1em 1em;
+}
+
+#projects-index ul.projects li.child {
+  border-bottom: solid #F0F0F0 1px;
+  padding-top: 0;
+}
+
+#projects-index ul.projects li.child:last-child {
+  border-bottom: none;
+}
+
 @import url(icons.less);
 @import url(colors.less);
 
